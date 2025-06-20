@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-Ancizar: "Ancizar Sans", sans-serif;
+}
+
+.dark-nav {
+    background: #212EA0;
+    transition: 0.5s;
+}
+
+@keyframes fadeInDown {
+    0%{
+        opacity: 0;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
