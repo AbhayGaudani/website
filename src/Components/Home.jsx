@@ -1,13 +1,14 @@
 import dark_arrow from "../assets/dark-arrow.png";
+import heroimg from "../assets/hero.png";
 const Home = () => {
   return (
     <div
       id="home"
       className=" w-full min-h-screen text-white bg-cover bg-center justify-center items-center flex"
-      style={{ backgroundImage: "url('/src/assets/hero.png')" }}
     >
+      <img src={heroimg} alt="" className="relative h-screen w-full" />
       <div className="absolute inset-0 bg-gradient-to-t from-[#08003A] to-[#08003A] opacity-70"></div>
-      <div className="pl-[10%] pr-[10%] text-center z-3 max-w-[1000px] font-Ancizar justify-center">
+      <div className="pl-[10%] pr-[10%] text-center z-3 max-w-[1000px] font-Ancizar justify-center absolute">
         <h1 className="text-[60px] font-bold">
           We Ensure better eduction for a better world
         </h1>
