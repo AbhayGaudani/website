@@ -7,7 +7,7 @@ import About from "./Components/About";
 import Campus from "./Components/Campus";
 import Testimonials from "./Components/Testimonials";
 import Contact from "./Components/Contact";
-import Footer from "./Components/footer";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
